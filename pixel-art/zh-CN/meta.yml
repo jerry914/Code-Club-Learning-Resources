@@ -1,0 +1,22 @@
+title: 像素艺术
+description: 使用 HTML、CSS 和 JavaScript 创建一个像素艺术编辑器。
+hero_image: images/pixel-art.png
+theme: navy
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+original_url: https://codeclubprojects.org/en-GB/webdev/pixel-art
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 你将需要什么
+- title: 创建像素网格
+- title: '挑战：调整网格尺寸'
+- title: 为像素着色
+- title: '挑战：使所有像素都可点击'
+- title: 添加调色板
+- title: '挑战：向调色板添加更多颜色'

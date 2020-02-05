@@ -1,0 +1,23 @@
+hero_image: images/tell-a-story.png
+theme: green
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 讲故事
+description: 创建一个网页来讲一个故事、笑话或诗歌
+original_url: https://codeclubprojects.org/en-GB/webdev/tell-a-story
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 你将需要什么
+- title: 确定一个故事
+- title: 编辑你的故事
+- title: '挑战：做出一些变动'
+- title: 讲述你的故事
+- title: 寻找你自己的图片
+- title: 上传图片
+- title: '挑战：继续进行！'

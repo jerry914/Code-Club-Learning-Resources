@@ -1,0 +1,22 @@
+Title: 贴纸
+hero_image: images/stickers.png
+theme: orange
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 贴纸！
+description: 创建一些有趣的机器人贴纸来装饰你的网页。
+original_url: https://codeclubprojects.org/en-GB/webdev/stickers
+interests: '艺术和设计'
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 彩色编码贴纸
+- title: HTML & CSS 贴纸
+- title: '挑战：创建你自己的渐变贴纸'
+- title: '绚丽的机器人贴纸'
+- title: '挑战：制作更多贴纸'
+

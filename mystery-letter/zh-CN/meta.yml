@@ -1,0 +1,25 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 神秘信件
+description: 创建一个带有多种不同样式的神秘信件。
+original_url: https://codeclubprojects.org/en-GB/webdev/mystery-letter
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 选择你的信息
+- title: 编辑你的信息
+- title: 使用类样式
+- title: '挑战：设置你的信息样式'
+- title: 编辑类
+- title: 创建一个新类
+- title: '挑战：创建电脑打印样式'
+- title: '挑战：创建你自己的样式'
+

@@ -1,0 +1,24 @@
+---
+title: 日出
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: 创建一个日出动画。
+original_url: https://codeclubprojects.org/en-GB/webdev/sunrise
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 创建太阳
+- title: 对日出进行动画处理
+- title: '挑战：斜向动画'
+- title: 无限动画
+- title: 对天空进行动画处理
+- title: '挑战：完善天空'
+- title: '挑战：更多动画'
+

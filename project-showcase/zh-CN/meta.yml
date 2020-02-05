@@ -1,0 +1,29 @@
+---
+title: 项目展示
+hero_image: images/banner.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: 创建一个 web 项目的展示。
+original_url: https://codeclubprojects.org/en-GB/webdev/project-showcase
+technologies: html-css-javascript
+site_areas: projects
+hardware: ''
+software: html-css-javascript
+version: 3.1
+steps:
+- title: 介绍
+- title: 添加网页链接
+- title: '挑战：添加另一个链接'
+- title: 链接至 Trinket
+- title: '挑战：创建你的项目列表'
+- title: 嵌入项目
+- title: '挑战：嵌入更多项目'
+- title: 创建目录
+- title: 返回顶部
+- title: '挑战：完善你的展示'
+- title: '挑战：创建新的展示'
+

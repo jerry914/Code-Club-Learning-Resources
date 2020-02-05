@@ -1,0 +1,26 @@
+---
+title: 杂志
+hero_image: images/magazine.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+description: 创建一个多页面的杂志网站。
+original_url: https://codeclubprojects.org/en-GB/webdev/magazine
+interests: ''
+technologies: html/css
+site_areas: codeclub, webdev
+steps:
+- title: 介绍
+- title: 标题和背景
+- title: 创建栏目
+- title: 设置杂志条目样式
+- title: '挑战：向左侧栏目添加条目'
+- title: 添加第二页
+- title: '挑战：添加一个返回首页的链接'
+- title: '挑战：填写第二页'
+- title: 添加动画
+- title: '挑战：添加另一个动画'
+
