@@ -1,0 +1,28 @@
+---
+hero_image: images/banner.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 躲避球
+description: 创建一个平台游戏，在游戏中，你必须躲避移动的球并
+  到达关卡终点。
+original_url: https://codeclubprojects.org/en-GB/scratch/dodgeball
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 角色移动
+- title: '挑战：通关'
+- title: 重力和跳跃
+- title: '挑战：改进的跳跃'
+- title: 躲避球
+- title: '挑战：随机小球'
+- title: 激光！
+- title: '挑战：更多障碍'
+- title: '挑战：改进的重力'
+- title: '挑战：更多生命'
+

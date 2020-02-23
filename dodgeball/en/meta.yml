@@ -1,0 +1,27 @@
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Dodgeball
+description: Create a platform game in which you dodge moving balls to reach the end of the level
+version: 4.0.0
+last_tested: 2018-10-10
+steps: 
+- title: Introduction
+- title: Character movement
+- title: "Challenge: completing the level"
+  challenge: true
+- title: Gravity and jumping
+- title: 'Challenge: improved jumping'
+  challenge: true
+- title: Dodging balls
+- title: 'Challenge: random balls'
+  challenge: true
+- title: Lasers!
+- title: 'Challenge: more obstacles'
+  challenge: true
+- title: 'Challenge: improved gravity'
+  challenge: true
+- title: 'Challenge: more lives'
+  challenge: true
+- title: What next?

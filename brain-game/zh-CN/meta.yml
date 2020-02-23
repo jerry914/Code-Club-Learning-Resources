@@ -1,0 +1,27 @@
+---
+hero_image: images/brain-game.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 脑力游戏
+description: 学习如何创建一个测验。
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 创建问题
+- title: '挑战：更改装扮'
+- title: '挑战：添加分数'
+- title: 重复游戏
+- title: '挑战：开始画面'
+- title: 添加图形
+- title: '挑战：改进动画'
+- title: '挑战：声音和音乐'
+- title: '挑战：争得 10 分'
+- title: '挑战：说明画面'
+

@@ -1,0 +1,18 @@
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: Tech Toys
+description: Learn how to code your own tech toys!
+version: 4
+last_tested: 2019-04-10
+steps: 
+- title: Introduction
+- title: Spinning Bow Tie
+- title: 'Challenge: Colour-changing sunglasses'
+  challenge: true
+- title: Powering up your helicopter
+- title: Flying your helicopter
+- title: Loop-the-loop
+- title: 'Challenge: Create your own tech toy!'
+  challenge: true
+- title: What next? 
