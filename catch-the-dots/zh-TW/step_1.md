@@ -1,77 +1,69 @@
+\--- no-print \---
+
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/catch-the-dots-scratch2) 版本。
+
+\--- /no-print \---
+
 ## 介紹
 
-你將在本專案中學習如何建立一個遊戲，在遊戲中，你必須使彩色小點與控制器的正確部位相匹配。
+在這個專案中，你將學習創建一個遊戲，玩家必須將不同顏色的點點與控制輪的顏色進行匹配。
+
+\--- no-print \---
+
+使用鍵盤的方向鍵旋轉控制輪，並在飛入的點點到達前用一樣的顏色接住它們， 如果失誤三次，遊戲就結束。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/44942820/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
-### 更多俱樂部領導資訊
+\--- /no-print \---
 
-如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)。
+\--- print-only \---
 
+![抓住點點的遊戲截圖](images/dots-final.png)
 
---- collapse ---
----
-title: 俱樂部領導備註
----
+\--- /print-only \---
 
+## \--- collapse \---
 
-## 介紹：
-孩子們將在本專案中學習如何製作一個遊戲，在遊戲中，玩家必須使彩色小點與控制器的對應部位相匹配。
+## title: 你會學到
 
-## 資源
-本專案應使用 Scratch 2。Scratch 2 可在 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) 上線上使用或從 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) 下載並離線使用。
++ 如何從清單中選擇隨機項目
++ 如何使用變數來記錄速度、生命和玩家得分
 
-本專案的“專案材料”連結包含以下資源：
+\--- /collapse \---
 
-##### 俱樂部領導資源
+## \--- collapse \---
 
-你可<a href="http://scratch.mit.edu/projects/44942820/#editor">線上</a>找到本專案的完整版本，或通過點選本專案的“專案材料”連結下載該專案，其中包括：
+## title: 你會用到
 
-+ CatchTheDots.sb2
+### 硬體
 
-##### 專案資源
++ 可運行 Scratch 3 的電腦
 
-就本專案而言，俱樂部成員可使用無法從 Scratch 庫中獲取的外部資源：
+### 軟體
 
-+ controller.svg.
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
-確保每個孩子都能訪問這些資源的副本。
+### 下載
 
-對於無法獲取這些專案資源的俱樂部成員，有一個 Scratch 專案帶有預先載入的外部資源。此專案可於 [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources) 線上獲取，或於可下載的專案材料中獲取，其中包含：
++ 材料包可[由此下載](http://rpf.io/p/en/catch-the-dots-go){:target="_blank"}
 
-+ CatchTheDotsResources.sb2 
+\--- /collapse \---
 
-## 學習目標
-+ 本專案鞏固了先前所學程式設計技術掌握的知識。
+## \--- collapse \---
 
-本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum)以下幾個部分的元素：
+## title: 給教師的其它資訊
 
-+ [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
+\--- no-print \---
 
-## 挑戰
-+ “向左旋轉” - 建立程式碼來移動控制器；
-+ “更多小點” - 建立更多需要與控制器的正確部分相匹配的彩色小點；
-+ “移動更快的小點” - 使用一個變數提高整個遊戲中小點的速度；
-+ “完善你的遊戲！”- 新增控制 `分數`{:class="blockdata"}、 `延遲`{:class="blockdata"} 和 `速度`{:class="blockdata"} 變數的新小點；
-+ “遊戲選單” - 建立一個選單，並帶有不同工作區背景和按鈕，可在之間進行切換。
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/catch-the-dots/print)。
 
---- /collapse ---
+\--- /no-print \---
 
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/catch-the-dots-get){:target="_blank"}。
 
---- collapse ---
----
-title: 專案材料
----
-## 專案資源
-* [包含外部資源的線上 Scratch 2 專案](http://jumpto.cc/dots-resources)
-* [包含外部資源的可下載 Scratch 2 專案](resources/CatchTheDotsResources.sb2)
-* [controller.svg](resources/controller.svg)
+你可以在這裡找到[已經完成的專案](https://scratch.mit.edu/projects/252923761/#editor){:target="_blank"}。
 
-## 俱樂部領導資源
-* [可下載的完整 Scratch 2 專案](resources/CatchTheDots.sb2)
-* [線上完整 Scratch 2 專案](http://scratch.mit.edu/projects/44942820/#editor)
-
---- /collapse ---
+\--- /collapse \---
