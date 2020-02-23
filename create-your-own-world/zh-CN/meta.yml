@@ -1,0 +1,26 @@
+hero_image: images/create-your-own-world.png
+title: 创建你自己的世界
+description: 学习如何创建你自己的开放世界冒险游戏。
+original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
+theme: orange
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 你将需要什么
+- title: 移动玩家子图
+- title: 坚固的墙壁
+- title: 对你的世界进行编码
+- title: 标志
+- title: '挑战：宝藏！'
+- title: 人物
+- title: '挑战：敌人'
+- title: 收集硬币
+- title: 门和钥匙
+- title: '挑战：扩展你的世界'

@@ -1,0 +1,22 @@
+---
+title: 捉鬼敢死隊
+hero_image: images/ghostbusters.png
+description: 做個人捉鬼的遊戲！
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-11-01
+steps:
+  - title: 介紹
+  - title: 讓鬼動起來
+  - title: 隨機出現的鬼魂
+  - title: '挑戰：更多隨機性'
+    challenge: true
+  - title: 抓鬼的程式
+  - title: '挑戰：加些音效'
+    challenge: true
+  - title: 記錄得分
+  - title: 計時開始
+  - title: '挑戰：更多的角色'
+    challenge: true
+  - title: 然後呢？

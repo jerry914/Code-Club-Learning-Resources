@@ -1,0 +1,20 @@
+title: Synchronised swimming
+hero_image: images/banner.png
+description: Celebrate the Olympics by programming a synchronised swimming routine.
+duration: 2
+listed: true
+copyedit: true
+version: 4
+last_tested: 2019-03-21
+steps: 
+- title: Introduction
+- title: Swimming left and right
+- title: Changing costume
+- title: Create the team
+- title: Music!
+- title: Programmed routines
+- title: 'Challenge: code your own routine'
+  challenge: true
+- title: 'Challenge: change the team'
+  challenge: true
+- title: 'What next?'

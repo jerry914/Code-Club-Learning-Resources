@@ -1,0 +1,24 @@
+hero_image: images/clone-wars.png
+theme: violet
+listed: true
+copyedit: true
+title: Clone wars
+description: Create a game in which you have to save the Earth from space monsters
+version: 4.1.0
+last_tested: 2018-10-11
+steps: 
+- title: Introduction
+- title: Make a spaceship
+- title: Lightning bolts
+- title: 'Challenge: improve the lightning'
+  challenge: true
+- title: Space-hippos
+- title: Spaceship explosion
+- title: Hippos that disappear
+- title: 'Challenge: lives and score'
+  challenge: true
+- title: Space-bat
+- title: Game over
+- title: 'Challenge: improve your game'
+  challenge: true
+- title: What next?

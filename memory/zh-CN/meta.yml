@@ -1,0 +1,25 @@
+hero_image: images/memory.png
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+title: 记忆
+description: 创建一个记忆游戏，在游戏中，你要记忆并重复随机颜色的
+  随机序列
+original_url: https://codeclubprojects.org/en-GB/scratch/memory
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 你将需要什么
+- title: 创建一个颜色序列
+- title: '挑战：添加声音'
+- title: 重复序列
+- title: 多个等级
+- title: 高分
+- title: '挑战：编写更多代码块'
+- title: '挑战：另一种造型'
+- title: '挑战：困难程度'

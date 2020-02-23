@@ -1,0 +1,21 @@
+title: Ghostbusters
+hero_image: images/ghostbusters.png
+description: Make a game about catching ghosts!
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-11-01
+steps:
+- title: Introduction
+- title: Animate a ghost
+- title: Random ghosts
+- title: 'Challenge: more randomness'
+  challenge: true
+- title: Code for catching ghosts
+- title: 'Challenge: add a sound'
+  challenge: true
+- title: Add a score
+- title: Add a timer
+- title: 'Challenge: more sprites'
+  challenge: true
+- title: What next?

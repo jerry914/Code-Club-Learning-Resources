@@ -1,0 +1,22 @@
+---
+title: 捉鬼敢死队
+hero_image: images/ghostbusters.png
+description: 制作一个捉鬼的游戏！
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-11-01
+steps:
+  - title: 简介
+  - title: 制作幽灵动画
+  - title: 随机幽灵
+  - title: '挑战：更多随机性'
+    challenge: true
+  - title: 捉幽灵的代码
+  - title: '挑战：添加音效'
+    challenge: true
+  - title: 添加计分功能
+  - title: 添加倒计时
+  - title: '挑战：更多角色'
+    challenge: true
+  - title: 接下来还有什么？

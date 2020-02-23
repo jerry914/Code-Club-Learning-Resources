@@ -1,0 +1,19 @@
+title: Beat the goalie
+hero_image: images/beat-the-goalie.png
+description: How many goals can you score in 30 seconds?
+listed: true
+copyedit: false
+version: 4
+last_tested: 2019-02-11
+steps: 
+- title: Introduction
+- title: Moving the football
+- title: Was it a goal?
+- title: Goal!
+- title: Adding a timer
+- title: "Challenge: adding a score"
+  challenge: true
+- title: Control the goalie
+- title: "Challenge: manual control"
+  challenge: true
+- title: What next? 

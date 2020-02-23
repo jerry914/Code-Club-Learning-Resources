@@ -1,0 +1,26 @@
+---
+hero_image: images/banner.png
+theme:  turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 接住小点
+description: 学习如何制作一个接点游戏。
+original_url: https://codeclubprojects.org/en-GB/scratch/catch-the-dots
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: 介绍
+- title: 创建一个控制器
+- title: '挑战：向左旋转'
+- title: 收集小点
+- title: '挑战：更多小点'
+- title: 增加难度
+- title: '挑战：移动更快的小点'
+- title: 高分
+- title: '挑战：完善你的游戏！'
+- title: '挑战：游戏菜单'
+
