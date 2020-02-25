@@ -1,0 +1,14 @@
+title: Rename a sprite in Scratch
+hero_image: images/banner.png
+description: Rename a sprite in Scratch
+original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+theme: red # all possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ""
+technologies: "scratch"
+steps:
+  - title: Rename a sprite

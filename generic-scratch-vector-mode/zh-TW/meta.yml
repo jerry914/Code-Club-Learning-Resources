@@ -1,0 +1,13 @@
+title: Scratch paint tool vector mode
+hero_image: images/banner.png
+description: Using vector mode in the Scratch paint tool
+theme: red # all possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "graphics"
+technologies: "scratch"
+steps:
+  - title: Scratch paint vector mode

@@ -1,0 +1,14 @@
+title: Creating a new Scratch project
+hero_image: images/banner.png
+description: Create a new Scratch project
+original_url:
+theme: cc-prototype
+duration: 1 # 1, 2 or 3
+curriculum:
+listed: false
+ingredient: true
+copyedit: true
+interests:
+technologies: "scratch"
+steps:
+  - title: Create a new project
