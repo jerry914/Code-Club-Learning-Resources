@@ -1,54 +1,11 @@
-## 障礙和助力
+## 挑戰：遊戲改良
 
-目前，這個遊戲_太_容易了 - 讓我們來新增一些內容，使其更加有趣。
+- 添加更多障礙，例如，在背景中添加綠色粘液，船隻在碰到時會減速。
 
-+ 讓我們首先向你的遊戲新增一些“助力器”來使船隻加速。編輯你的工作區背景，加入一些白色的助力器箭頭。
+- 添加會移動的障礙物，比方說浮木…或是鯊魚！
 
-	![screenshot](images/boat-boost.png)
+![截圖](images/boat-obstacles.png)
 
-+ 現在向你船隻的永遠迴圈新增一些程式碼，使其碰到白色助力器就能多移動三步。
+- 把遊戲變成雙人制，第二個玩家用方向鍵來控制船隻（向上鍵向前移動、左右鍵轉向）。
 
---- hints ---
---- hint ---
-`如果` 你的船隻 `觸碰白色助力器` ，則其應 `多移動 3 步`。  
---- /hint ---
---- hint ---
-以下是你將需要的程式碼塊：
-![screenshot](images/boat-boost-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![screenshot](images/boat-boost-code.png)
---- /hint ---
---- /hints ---
-
-+ 你還可以新增一個船隻必須避開的旋轉門。新增一個被稱作“門”的新子圖，如下所示：
-
-	![screenshot](images/boat-gate.png)
-
-	確保門的顏色與木頭障礙的顏色相同。
-
-+ 設定門子圖的中心。
-
-	![screenshot](images/boat-center.png)
-
-+ 向你的門新增程式碼，使其能永遠緩慢旋轉。
-
---- hints ---
---- hint ---
-向門子圖新增程式碼，使其 `永遠` `轉 1 度`。
---- /hint ---
---- hint ---
-以下是你將需要的程式碼塊：
-![screenshot](images/boat-spin-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![screenshot](images/boat-spin-code.png)
---- /hint ---
---- /hints ---
-
-
-+ 測試你的遊戲。你現在應該有了一個你必須避開的旋轉門。
-
-	![screenshot](images/boat-gate-test.png)
+- 把遊戲變成關卡制，利用舞台背景來添加更多的關卡，然後允許玩家選擇要遊玩的關卡。
