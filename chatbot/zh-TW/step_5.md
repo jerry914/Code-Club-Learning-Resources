@@ -1,99 +1,127 @@
-## 第 3 步：判定
+## 會判斷的機器人
 
-你可以對你的聊天機器人進行程式設計，從而基於你對其問題的回覆，來判定說什麼或做什麼。
+你將對聊天機器人編寫程式，讓它依據收到的答案來決定要做什麼。
 
-+ 你能否使聊天機器人提出“你好嗎？”的問題，並對其進行編碼，使其只有__在__使用者回答“是”的時候回覆“很高興聽到這句話！”？
+首先，你將讓聊天機器人問一個可以用「是」或「不是」的方式來回答的問題。
 
-    為適當地測試你的新程式碼，你需要測試__兩次__，一次使用答案“是”，另一次使用答案“不”。
+\--- task \---
 
-    如果你回答“是”，你的聊天機器人應回覆“很高興聽到這句話！”，但如果你回答“不”，便無回覆。
+修改一下聊天機器人的程式， 它要詢問使用者「今天過得好不好？」，最後再加上使用者的`名字`{:class="block3variables"} 。 `如果`{:class="block3control"}使用者回答「好」，聊天機器人就會回應「那就太棒了！」；使用者說「不好」，那它就什麼也不回應。
 
-    ![Testing a chatbot reply](images/chatbot-if-test.png)
+![聊天機器人回應測試](images/chatbot-if-test1-annotated.png)
 
---- hints ---
---- hint ---
-你的聊天機器人說完“嗨”之後，現在還應該__詢問__“你好嗎？”。__如果__你回答“是”，那麼聊天機器人應該__說__“很高興聽到這句話！”。
---- /hint ---
---- hint ---
-以下是你將另外需要的程式碼塊：
-![Blocks for a chatbot reply](images/chatbot-if-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![Code for a chatbot reply](images/chatbot-if-code.png)
---- /hint ---
---- /hints ---
+![聊天機器人回應測試](images/chatbot-if-test2.png)
 
-+ 此時，如果你回答“不”，你的聊天機器人將什麼都不會說。你能否更改你的聊天機器人，使其在你對其問題回答“不”時也回覆“噢不！”。
+![Nano 角色](images/nano-sprite.png)
 
-    測試並儲存。現在，你的聊天機器人應在你回答“不”時說“噢不！”。事實上，如果你回答除“是”之外的任何內容，它都會說“噢不！”（`if/else`程式碼塊中的__else__意為__否則__）。
+```blocks3
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
+變數 [名字 v] 設為 (詢問的答案)
+說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒
++ 詢問 (字串組合 (今天過得好不好？) (名字)) 並等待
++ 如果 <(詢問的答案) = (好)> 那麼
+  說出 (那就太棒了！) 持續 (2) 秒
+end
+```
 
-    ![Testing a yes/no reply](images/chatbot-if-else-test.png)
+為了正確測試程式，你應該要測試**兩次**：一次輸入答案「好」，另一次回答「不好」。
 
---- hints ---
---- hint ---
-現在，__如果__你回答“是”，你的聊天機器人應說“很高興聽到這句話！”，但如果你回答__其他__內容，就會說“噢不！”。
---- /hint ---
---- hint ---
-以下是你將需要使用的程式碼塊：
-![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![Code for a yes/no reply](images/chatbot-if-else-code.png)
---- /hint ---
---- /hints ---
+\--- /task \---
 
-+ 你可以將任何程式碼放進`if/else`程式碼塊中，並非只有使你的聊天機器人說話的程式碼。如果你點選聊天機器人的**Costume**（造型）選項卡，你會看到其不止有一種造型。
+目前，你的聊天機器人對「不好」這個答案並不會有任何反應。
 
-    ![chatbot costumes](images/chatbot-costume-view.png)
+\--- task \---
 
-+ 你能否更改聊天機器人的造型以匹配你的回覆？
+修改聊天機器人的程式，在它問完「今天過得好不好？」之後，如果得到的回答是「不好」，那麼就回應「明天會更好」。
 
-    測試並儲存。你會看到聊天機器人的面部表情會根據你的回答改變。
+把原來的`如果…那麼`{:class="block3control"}積木換成`如果…那麼…否則`{:class="block3control"}積木，這樣子機器人對其餘的回答`說出「明天會更好」`{:class="block3looks"}。
 
-    ![Testing a changing costume](images/chatbot-costume-test.png)
+![Nano 角色](images/nano-sprite.png)
 
---- hints ---
---- hint ---
-現在，你的聊天機器人還應根據收到的答案__切換造型__。
---- /hint ---
---- hint ---
-以下是你將需要使用的程式碼塊：
-![Blocks for a changing costume](images/chatbot-costume-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![Code for a changing costume](images/chatbot-costume-code.png)
---- /hint ---
---- /hints ---
+```blocks3
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
+變數 [名字 v] 設為 (詢問的答案)
+說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒
+詢問 (字串組合 (今天過得好不好？) (名字)) 並等待
 
-+ 你是否注意到了你的聊天機器人造型與你上次跟它說話時所變更的造型相同？你能否解決這個問題？
++ 如果 <(詢問的答案) = (好)> 那麼
+  說出 (那就太棒了！) 持續 (2) 秒
+否則
++ 說出 (明天會更好) 持續 (2) 秒
+end
+```
 
-    ![Costume bug](images/chatbot-costume-bug-test.png)
+\--- /task \---
 
-    測試並儲存：執行你的程式碼並輸入“不”，使你的聊天機器人看起來不開心。當你再次執行程式碼時，你的聊天機器人應在詢問你的名字之前變回笑臉。
+\--- task \---
 
-    ![Testing a costume fix](images/chatbot-costume-fix-test.png)
+測試你的程式。 你應該會在回答「不好」後，在機器人身上得到不同的回應。事實上，只要你的回答**是「好」的以外的答案**的時候，機器人都會說「明天會更好」。
 
---- hints ---
---- hint ---
-__點選子圖__時，你的聊天機器人應首先__切換造型__，變為笑臉。
---- /hint ---
---- hint ---
-以下是你將需要新增的程式碼塊：
-![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png)
---- /hint ---
---- hint ---
-你的程式碼應如下所示：
-![Code for a costume fix](images/chatbot-costume-fix-code.png)
---- /hint ---
---- /hints ---
+![聊天機器人回應測試](images/chatbot-if-test2.png)
 
---- challenge ---
-## 挑戰：更多判定
+![聊天機器人回應測試](images/chatbot-if-else-test.png)
 
-對你的聊天機器人進行程式設計來提出另一個問題 - 用“是”或“不”回答的問題。你能否使你的聊天機器人對回答做出反應？
+\--- /task \---
 
-![screenshot](images/chatbot-joke.png)
---- /challenge ---
+你可以在`如果…那麼…否則`{:class="block3control"}的區段裡編寫任何程式，不一定是「說出」這種外觀類積木！
+
+如果你切換到聊天機器人的**造型**頁籤，你可以看到這個角色預設的造型不只一種。
+
+![聊天機器人造型](images/chatbot-costume-view-annotated.png)
+
+\--- task \---
+
+修改聊天機器人的程式，讓它在使用者回答時變換造型。
+
+![造型變換測試](images/chatbot-costume-test1.png)
+
+![造型變換測試](images/chatbot-costume-test2.png)
+
+修改`如果…那麼…否則`{:class="block3control"}區段的程式，添加`切換造型`{:class="block3looks"}的程式。
+
+![Nano 角色](images/nano-sprite.png)
+
+```blocks3
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
+變數 [名字 v] 設為 (詢問的答案)
+說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒
+詢問 (字串組合 (今天過得好不好？) (名字)) 並等待
+如果 <(詢問的答案) = (好)> 那麼
+
++ 造型換成 (nano-c v)
+  說出 (那就太棒了！) 持續 (2) 秒
+否則
++ 造型換成 (nano-d v)
+  說出 (明天會更好) 持續 (2) 秒
+end
+```
+
+測試並儲存你的程式，你應該會看到聊天機器人會根據使用者的回答有不同的外觀反應。
+
+\--- /task \---
+
+觀察到了嗎？在更改聊天機器人的造型後，它會持續這個外觀，不會恢復到一開始時的樣子。
+
+你可以測試看看：運行程式後回答「不好」，這樣機器人會露出不高興的表情。 接著，你再點擊角色重新開始程式，觀察看看機器人在詢問你的名字前，臉上的表情是開心的嗎？
+
+![造型上的 bug](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+要解決這個問題，必須在聊天機器人程式的一開始，也就是`當角色被點擊`{:class="block3events"}的時候，先`切換一個預定的造型`{:class="block3looks"}。
+
+![Nano 角色](images/nano-sprite.png)
+
+```blocks3
+當角色被點擊
+
++ 造型換成 (nano-a v)
+詢問 (你叫什麼名字？) 並等待
+```
+
+![造型上的 bug 修復](images/chatbot-costume-fix-test.png)
+
+\--- /task \---

@@ -1,66 +1,70 @@
+\--- no-print \---
+
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) 版本。
+
+\--- /no-print \---
+
 ## 介紹
 
-你將學習如何編寫你自己的會說話的機器人程式！
+你將學習到如果用程式寫出一個會跟你對話的角色！像這樣的玩意兒，我們稱它為 chatbot（聊天機器人）。
 
-### 你將做出什麼
+### 你會做出的玩意兒
+
+\--- no-print \---
+
+點擊綠旗，然後點擊畫面上的聊天機器人角色，就可以開始與它對話。 當聊天機器人問你問題時，把你的答案輸入在畫面底部的文字方塊，輸入完後點擊右邊的藍色勾勾（或是按下 `Enter` 鍵），就可以看到機器人的回應。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-點選綠色旗幟，然後點選聊天機器人開始對話。聊天機器人提出一個問題時，在工作區底部的方框內輸入你的答案，並點選對號（或按`回車`鍵）。
+\--- /no-print \---
 
-### 你將學習什麼
+\--- print-only \---
 
-本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：
+![完成的專案](images/chatbot-preview.png)
 
-+ [使用基本程式設計結構建立簡單程式。](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### 更多俱樂部領導資訊
+## \--- collapse \---
 
-如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/chatbot/print)。
+## title: 你會用到
 
---- collapse ---
----
-title: 俱樂部領導備註
----
+### 硬體
 
-## 介紹：
-孩子們將在本專案中學習如何使用“if”語句在其程式中進行判定。
+- 可運行 Scratch 3 的電腦
 
-## 資源
-本專案應使用 Scratch 2。Scratch 2 可在 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) 上線上使用或從 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) 下載並離線使用。
+### 軟體
 
-你可<a href="http://scratch.mit.edu/projects/26762091/#editor">線上</a>找到本專案的完整版本，或通過點選本專案的“專案材料”連結下載該專案，其中包括：
+- Scratch 3（[線上版](https://rpf.io/scratchon){:target="_blank"} 或 [離線版](https://rpf.io/scratchoff){:target="_blank"}）
 
-+ ChatBot.sb2
+### 下載
 
-## 學習目標
+- 材料包可[由此下載](http://rpf.io/p/en/chatbot-go)。
 
-+ 文字輸入；
-+ 判定：
-    + `如果 ... 那麼`{:class="blockcontrol"} 語句；
-    + `如果 ... 那麼 ... 否則`{:class="blockcontrol"} 語句。
+\--- /collapse \---
 
-本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：
+## \--- collapse \---
 
-+ [使用基本程式設計結構建立簡單程式。](https://www.raspberrypi.org/curriculum/programming/creator)
+## title: 你會學到
 
-## 挑戰
-+ “更多問題” - 鞏固輸入及`answer`{:class="blocksensing"}（回答 程式碼塊的學習；
-+ “更多判定” - 運用判定；
-+ “製作你自己的聊天機器人” - 鞏固從本專案和以往專案所學的內容。
+- 用 Scratch 程式串接文字
+- 瞭解變數可以用來儲存使用者輸入的內容
+- 用 Scratch 程式的判斷式來回應使用者輸入
 
---- /collapse ---
+\--- /collapse \---
 
---- collapse ---
----
-title: 專案材料
----
+## \--- collapse \---
 
-## 俱樂部領導資源
+## title: 給教師的其它資訊
 
-* [可下載的完整 Scratch 2 專案](resources/ChatBot.sb2)
-* [線上完整 Scratch 2 專案](http://scratch.mit.edu/projects/26762091/#editor)
+\--- no-print \---
 
---- /collapse ---
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
+
+\--- /no-print \---
+
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/chatbot-get)。
+
+\--- /collapse \---
