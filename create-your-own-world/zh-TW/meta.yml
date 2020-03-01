@@ -1,0 +1,39 @@
+---
+hero_image: images/banner.png
+title: 創造你的世界
+description: 創建一個屬於自己的開放世界冒險遊戲
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 移動玩家角色
+  - 
+    title: 堅固的牆壁
+  - 
+    title: 在你的世界逛逛
+  - 
+    title: "挑戰：回到上個空間"
+    challenge: true
+  - 
+    title: 告示牌
+  - 
+    title: "挑戰：寶藏！"
+    challenge: true
+  - 
+    title: 路人
+  - 
+    title: "挑戰：加個敵人"
+    challenge: true
+  - 
+    title: 收集金幣
+  - 
+    title: 門和鑰匙
+  - 
+    title: "挑戰：拓展你的世界"
+    challenge: true
+  - 
+    title: "然後呢？"
