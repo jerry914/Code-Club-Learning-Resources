@@ -1,46 +1,108 @@
-## 標誌
+## 告示牌
 
-讓我們向你的世界新增一些標誌，以指引玩家的旅程。
+現在為你的世界添加一些告示牌，引導玩家探索這個世界。
 
-+ 你的專案包括一個 `歡迎標誌` 子圖：
+材料包裡已經有個`告示牌`角色了：
 
-![screenshot](images/world-sign.png)
+![截圖](images/world-sign.png)
 
-+ `歡迎標誌` 子圖只應在房間 1 中可見，因此向 `歡迎標誌` 子圖新增一些程式碼以確保實現這一點：
+\--- task \---
 
-```blocks
-	點選綠旗時
-  重複無限次 
-    如果 <(room) = [1]> 那麼 
-      顯示
+這個`歡迎告示牌`角色應該只會在空間 1 出現，所以我們要添加一些程式：
 
-      隱藏
-    end
-  end
+\--- hints \---
+
+\--- hint \---
+
+`在點擊綠旗時`{:class="block3events"}，`重複不斷`{:class="block3control"}的檢查`所在的空間`{:class="block3variables"}`是不是`{:class="block3control"}空間1，如果是就`顯示`{:class="block3looks"}`歡迎告示牌`，`否則`{:class="block3control"}就`隱藏`{:class="block3looks"}。
+
+\--- /hint \---
+
+\--- hint \---
+
+這裡是你需要的程式積木：
+
+![告示牌](images/sign.png)
+
+```blocks3
+<br />如果 <> 那麼
+否則
+end
+
+<(空間 :: variables) = (1)>
+
+隱藏
+
+顯示
+
+重複無限次
+end
+
+當 @greenflag 被點擊
+
 ```
 
-+ 通過在房間之間移動來測試你的 `歡迎標誌` 子圖。你的標誌只應在房間 1 中可見。
+\--- /hint \---
 
-	![screenshot](images/world-sign-test.png)
+\--- hint \---
 
-+ 一個標誌如果不能表示點什麼，則沒有多大用處！新增更多程式碼，使 `歡迎標誌` 子圖觸碰到 `玩家` 子圖時顯示一條資訊：
+以下是完整的程式：
 
-```blocks
-	點選綠旗時
-  重複無限次 
-    如果 <(room) = [1]> 那麼 
-      顯示
+![告示牌](images/sign.png)
 
-      隱藏
+```blocks3
+當 @greenflag 被點擊
+重複無限次
+    如果 <(空間 :: variables) = (1)> 那麼
+        顯示
+    否則
+        隱藏
     end
-    如果 <碰到 [player v] ?> 那麼 
-      說出 [Welcome! Can you get to the treasure?]
-
-      說出 []
-    end
-  end
+end
 ```
 
-+ 測試你的 `歡迎標誌` 子圖 — 現在，`玩家` 子圖觸碰它時，你應該會看到一條資訊。
+\--- /hint \---
 
-![screenshot](images/world-sign-test2.png)
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+測試在`歡迎告示牌`角色的程式是否正確，你要在兩個空間走動。 告示牌只會出現在空間1這個背景。
+
+![截圖](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+告示牌啥事都不告訴你，也太遜了對吧？！ 添加一些程式，如果`歡迎告示牌`被`玩家`碰到了，就顯示一些訊息：
+
+![告示牌](images/sign.png)
+
+```blocks3
+當 @greenflag 被點擊
+重複無限次
+如果 <(空間 :: variables) = (1)> 那麼
+顯示
+否則
+隱藏
+end
++ 如果 <碰到 (玩家 v)？ > 然後
+說出 (歡迎！ 你能得到寶藏嗎？)
+否則
+說出 ()
+end
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+再次測試你的`歡迎告示牌`， 當`玩家`碰觸`歡迎告示牌`角色時，你應該會看到一段訊息。
+
+![截圖](images/world-sign-test2.png)
+
+\--- /task \---
