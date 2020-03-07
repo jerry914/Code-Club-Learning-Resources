@@ -7,11 +7,11 @@
     </head>
     <body>
         <p>在遊戲留下最高得分紀錄能增加玩家的樂趣。</p>
-<p>假設你有個變數叫做<code>得分</code>{:class="blockdata"}，在每次遊戲一開始把它歸零。</p>
-<p>添加另一個變數，名為<code>最高分</code>{:class="blockdata"}。</p>
+<p>假設你有個變數叫做<code class="data">得分</code>，在每次遊戲一開始把它歸零。</p>
+<p>添加另一個變數，名為<code class="data">最高分</code>。</p>
 <p><img alt="建立一個變數的視窗高亮顯示" src="images/make-variable-annotated.png"/></p>
 <p><img alt="新的名為最高分的變數視窗高亮顯示" src="images/make-high-score-variable.png"/></p>
-<p>在遊戲結束時（或是你想更新最高分紀錄時），就需要檢查這個得分到目前為止是不是<code>最高分</code>。</p>
+<p>在遊戲結束時（或是你想更新最高分紀錄時），就需要檢查這個得分到目前為止是不是<code class="noType">最高分</code>。</p>
 <p><img alt="保留最高得分記錄的程式" src="images/check-for-high-score.png"/></p>
 
     </body>
@@ -32,5 +32,19 @@
     }
     p{
         margin-bottom: 10px;
+    }
+    .data{
+        background-color: #ff8c1a;
+        color: #ffffff;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .noType{
+        background-color: #000;
+        color: #ffffff;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 3px;
     }
 </style>
