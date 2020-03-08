@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body onload="runDemo()">
         <div class="content">
+            <div class="light"></div>
+            <div class="light"></div>
             <img class="trophy" src="https://projects.raspberrypi.org/static/media/challenge-label.206f6517.svg" alt="">
             <h1 class="challange">挑戰 !</h1>
         </div>
@@ -14,6 +16,9 @@
 
 <script>
     // console.log(screen.height);
+    function runDemo(){
+        
+    }
 </script>
 <style>
     html{
@@ -28,17 +33,21 @@
         position: fixed;
         left: 0px;
         top: 0px;
+        
     }
     .trophy{
         margin-left: 5%;
         margin-top: 35px;
         width: 35px;
         height: auto;
+        filter: drop-shadow(0px -2px 10px white);
     }
+
     .challange{
         display: inline;
         color: #FFF;
         margin-left: 20px;
         line-height: 80px;
+        text-shadow: 0 0 2px white,0 0 3px white,0 0 15px #e58c8a,0 0 80px #e58c8a;
     }
 </style>
