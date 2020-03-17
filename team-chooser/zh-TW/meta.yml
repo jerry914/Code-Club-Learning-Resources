@@ -1,0 +1,30 @@
+---
+hero_image: images/team-chooser.png
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 組隊器
+description: 製作一個程式來將隊員分成 2 個隨機團隊。
+original_url: https://codeclubprojects.org/zh-CN/python/team-chooser
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2018-04-05
+steps:
+  - title: '介紹'
+  - title: 隊員
+  - title: '挑戰：新增更多隊員'
+  - title: 隨機隊員
+  - title: '挑戰：為B隊選擇隊員'
+  - title: 選擇很多隊員
+  - title: 檔案
+  - title: 奇數數量的隊員
+  - title: '挑戰：隨機團隊名稱'
+  - title: '挑戰：儲存團隊名稱'
+  - title: '挑戰：更多團隊'

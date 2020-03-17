@@ -1,0 +1,25 @@
+hero_image: images/banner.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 程式碼世界
+description: 對我的世界 2D 版本進行設計和程式碼改進。
+original_url: https://codeclubprojects.org/en-GB/python/codecraft
+interests: ''
+technologies: python
+site_areas: codeclub, python
+steps:
+- title: 介紹
+- title: 進行遊戲
+- title: '挑戰：建造你的世界'
+- title: 自定義你的遊戲
+- title: '挑戰：更改你的世界規模'
+- title: 建立一個新的木材資源
+- title: '挑戰：建立沙子'
+- title: 利用木材製作木板
+- title: '挑戰：利用沙子製作玻璃'
+- title: '挑戰：建立更多資源'
+
