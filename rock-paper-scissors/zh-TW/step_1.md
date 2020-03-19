@@ -1,8 +1,8 @@
 ## 介紹
 
-在這個專案中，你將建立一個剪刀、石頭、布的遊戲並與電腦對戰。
+在這個專案中，你將建立一個剪刀、石頭、布的遊戲，並和電腦對戰。
 
-規則: 您和電腦同時選擇剪刀、石頭或布。 由以下規則決定獲勝者：
+規則: 你和電腦同時選擇剪刀、石頭或布。 由以下規則決定獲勝者：
 
 * 石頭砸壞剪刀
 * 布包裹住石頭
@@ -14,13 +14,10 @@
   <img src="images/rps-final.png">
 </div>
 
-### 俱樂部負責人附加備註
-
-如果您需要列印此專案，請使用[適合列印版本](https://projects.raspberrypi.org/zh-CN/projects/rock-paper-scissors/print) 。
 
 --- collapse ---
 ---
-title: 俱樂部負責人備註
+title: 給老師的話
 ---
 
 ## 介紹:
@@ -55,7 +52,7 @@ title: 俱樂部負責人備註
 * 選擇語句（`if` ，` elif ` ，`else`）; 
 * 布林邏輯 `==`和`and` 。
 
-該專案涵蓋了[Raspberry Pi數字製作課程](http://rpf.io/curriculum)中的以下內容 ：
+該專案涵蓋了[Raspberry Pi數位製造課程](http://rpf.io/curriculum)中的以下內容 ：
 
 * [利用基本程式設計框架建立簡單程式。](https://www.raspberrypi.org/curriculum/programming/creator)
 
