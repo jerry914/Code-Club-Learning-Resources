@@ -18,6 +18,4 @@
 
 ### 給教育工作者的額外資訊
 
-如果您需要列印此專案內容，請下載 [列印版本](https://projects.raspberrypi.org/zh-TW/projects/about-me/print){:target="_blank"}。
-
-使用頁腳中的連結訪問此專案的 GitHub 存儲庫，在 'en/resources' 資料夾中有所有的資源(包括已完成的專案範例)。
+訪問此專案的GitHub資源庫，在[zh-TW/resources](/resources)資料夾中包含了所有資源（包括一個已完成的專案示例）。

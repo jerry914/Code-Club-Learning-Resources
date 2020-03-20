@@ -18,9 +18,9 @@
 
 	![screenshot](images/messages-alphabet-array.png)
 
-	你在試過之後就可以刪除 `print` 語句。
+	你在測試過之後就可以刪除 `print` 語句。
 
-+ 接下來，你將需要在變數中儲存祕密 `key`（金鑰）。
++ 接下來，你將需要在變數中儲存祕密 `key`。
 
 	![screenshot](images/messages-key.png)
 
@@ -36,7 +36,7 @@
 
 	![screenshot](images/messages-position-test.png)
 
-+ 要加密 `character`（字元），你需要向 `position`（位置）新增 `key`（金鑰）。它隨後會被儲存在 `newPosition` 變數中。
++ 要加密 `character`（字元），你需要向 `position`（位置）新增 `key`（密鑰）。它隨後會被儲存在 `newPosition` 變數中。
 
 	![screenshot](images/messages-newposition.png)
 
@@ -44,28 +44,28 @@
 
 	![screenshot](images/messages-newposition-print.png)
 
-+ 測試你的新程式碼。由於你的 `key`（金鑰）為 3，因此應將 `position`（位置）加上 3 並儲存在你的 `newPosition` 變數中。
++ 測試你的新程式碼。因為你的 `key`（密鑰）是 3，所以應該要把 `position`（位置）加上 3 並儲存在你的 `newPosition` 變數中。
 
-	例如，字母“e”位於位置 4。為進行加密，你需要加上 `key` (3)，得出 7。
+	例如，字母“e”位於位置 4。為了進行加密，你需要加上 `key` (3)，得出 7。
 
 	![screenshot](images/messages-newposition-test.png)
 
-+ 你嘗試加密字母“y”的話會發生什麼？
++ 如果你試著加密字母“y”的話，會發生什麼事情呢？
 
 	![screenshot](images/messages-modulus-bug.png)
 
-	請注意 `newPosition` 現在變為 27，而在字母表中並沒有 27 個字母！
+	請注意 `newPosition` 現在變成 27，但是在字母表中並沒有 27 個字母！
 
-+ 你可以使用 `%` 來告訴新位置，一旦到達位置 26，即返回位置 0。
++ 你可以使用 `%` 來告訴新位置，一旦到達位置 26，就返回位置 0。
 
 	![screenshot](images/messages-modulus.png)
 
 + 最後，你想要列印出新位置的字母。
 
-	例如，向字母“e”新增金鑰得出 7，字母表中位置 7 的字母為“h”。
+	例如，向字母“e”新增密鑰得出 7，字母表中位置 7 的字母為“h”。
 
 	![screenshot](images/messages-newcharacter.png)
 
-+ 試試你的程式碼。你還可以移除某些列印語句，只在最後列印出新字元。
++ 試試你的程式碼。你還可以移除某些列印語句，只有在最後列印出新字元。
 
 	![screenshot](images/messages-enc-test.png)

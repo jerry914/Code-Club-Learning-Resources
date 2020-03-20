@@ -9,6 +9,6 @@
 + 使用`append`將選擇的隊員新增到`teamB`列表
 + 使用`remove`將選擇的隊員從`players`列表中刪除
 
-為`teamB`所寫的程式碼將**非常**類似於你已為`teamA`寫好的程式碼。
+為`teamB`所寫的程式碼將**非常**類似於你已經幫`teamA`寫好的程式碼。
 
 --- /challenge ---

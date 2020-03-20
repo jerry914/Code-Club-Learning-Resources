@@ -1,6 +1,6 @@
 --- challenge ---
 ## 挑戰：友情計算器
-編寫一個程式，來通過計算友情得分，顯示 2 人的關係有多密切。
+編寫一個程式，通過計算友情得分，來顯示 2 人的關係有多密切。
 
 ![screenshot](images/messages-friends.png)
 
@@ -10,7 +10,7 @@
 
 ![screenshot](images/messages-friends-code.png)
 
-你還可以根據使用者的分數，向他們提供一條個性化的資訊：
+你還可以根據得到的分數，向他們提供一條特別的資訊：
 
 ![screenshot](images/messages-best-friends.png)
 

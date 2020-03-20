@@ -28,8 +28,8 @@
     
     ![截圖](images/team-players-remove.png)
 
-+ 通過新增 `print` 命令來測試此程式碼, 以顯示 `players`列表中餘下的可供選擇的隊員。
++ 通過新增 `print` 指令來測試此程式碼, 以顯示 `players`列表中餘下的可供選擇的隊員。
     
     ![截圖](images/team-players-remove-test.png)
     
-    在上面的例子中，赫敏被選入 `teamA`，因此她被移出 `players` 列表。
+    在上面的例子中，妙麗被選入 `teamA`，因此她被移出 `players` 列表。

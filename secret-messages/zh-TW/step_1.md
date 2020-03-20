@@ -1,6 +1,6 @@
 ## 介紹：
 
-你將在本專案中學習如何製作你自己的加密程式，從而在朋友間傳送和接收祕密資訊。本專案與太空日記第 16 頁的“地球到 Principa”活動相關。
+在這個專案中，你將學到如何製作自己的加密程序，以及如何和朋友傳送秘密訊息。
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/402256078c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -8,83 +8,83 @@
   <img src="images/messages-finished.png">
 </div>
 
-### 更多俱樂部領導參考資訊
 
-如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/secret-messages/print)。
+## \--- collapse \---
 
-
---- collapse ---
----
-title: 俱樂部領導備註
----
-
+## title: 給教師的其它資訊
 
 ## 介紹：
-孩子們將在本專案中學習如何製作一個加密程式，從而在朋友間傳送和接收祕密資訊。本專案介紹了對文字字串進行迭代（迴圈）。
+
+在這個專案中，孩子們將學習如何製作加密程序，以及如何與朋友傳送秘密訊息。本專案介紹了對文字字串進行迭代（迴圈）
 
 ## 線上資源
 
-本專案使用 Python 3。我們推薦使用 [trinket](https://trinket.io/）線上編寫 Python。本專案包含以下 Trinket：
+**這個專案使用 Python 3。**我們建議利用 [trinket](https://trinket.io/) 在線上撰寫 Python 程式。
 
-+ [新（空白）Python Trinket -- jumpto.cc/python-new](http://jumpto.cc/python-new)
+* [新的（空白）Python Trinket -jumpto.cc/python-new](http://jumpto.cc/python-new)
 
-還有一個 trinket 包含已完成專案：
+還有一個包含完成的專案的trinket：
 
-+ [“祕密資訊”已完成 -- trinket.io/python/402256078c](https://trinket.io/python/402256078c)
+* ['秘密消息'已完成-trinket.io/python/402256078c](https://trinket.io/python/402256078c)
 
-+ [“友情計算器”已完成 -- trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
+* ['友誼計算器'完成-trinket.io/python/2e852cd687](https://trinket.io/python/2e852cd687)
 
 ## 離線資源
-如果希望的話，本專案可[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。
 
-你可以在“志願者資源”部分中找到已完成專案，其中包含：
+這個專案也可以[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/)。
 
-+ messages-finished/messages.py
-+ messages-finished/friends.py
+您可以在“志願者資源”部分中找到完成的項目，其中包括：
 
-（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）
+* messages-finished/messages.py
+* messages-finished/friends.py
+
+（以上所有資源也可以作為專案和志願者`.zip下載`文件）。
 
 ## 學習目標
-+ 對字串變數進行迭代（迴圈）；
-+ `find()` 方法；
-+ 取模運算子 (`%`)。
 
-本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：
+* 對字串變數進行迭代（循環）；
+* ` find（） `方法;
+* 運算符（`％ ` ）。
 
-+ [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
+本專案涵蓋 [樹莓派數位化課程](http://rpf.io/curriculum)以下內容：
+
+* [結合程式設計結構來解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## 挑戰
-+ 使用凱撒密碼 - 手動加密和解密字母和單詞；
-+ 可變金鑰 - 允許使用者輸入選定的金鑰；
-+ 加密和解密資訊 - 加密和解密完整資訊；
-+ 友情計算器 - 將文字迭代應用到新的問題。
+
+* 使用凱薩密碼-手動加密和解密字母和單詞；
+* 密鑰-允許用戶輸入所選密鑰；
+* 加密和解密消息-加密和解密整個消息；
+* 友誼計算器-將文本迭代應用於解決新問題。
 
 ## 常見問題
-+ 當使用 `find()` 或 `if char in alphabet:` 進行搜尋時，請注意搜尋會區分大小寫。孩子們可以使用：
 
-	```python
-	message = input("Please enter a message to encrypt: ").lower()
-	```
+* 使用` find（）搜索時`或`如果字母為char： ` ，請注意，搜索區分大小寫。兒童可以使用：
+    
+    ```python
+    message = input（“請輸入要加密的消息：”）。lower（）
+    ```
+    
+    在搜索之前使輸入的字母小寫。
 
-	在搜尋之前將輸入內容變為小寫。
+\--- /collapse \---
 
---- /collapse ---
+\--- collapse \---
 
+## 標題：專案材料
 
---- collapse ---
----
-title: 專案材料
----
 ## 專案資源
-* [包含所有專案資源的 .zip 檔案](resources/secret-messages-project-resources.zip)
-* [線上空白 Python Trinket](http://jumpto.cc/python-new)
-* [離線空白 Python 檔案](resources/new-new.py)
 
-## 俱樂部領導資源
-* [包含所有已完成專案資源的 .zip 檔案](resources/secret-messages-volunteer-resources.zip)
-* [線上已完成 Trinket 專案](https://trinket.io/python/402256078c)
+* [包含所有專案資源的.zip文件](resources/secret-messages-project-resources.zip)
+* [線上空白的Python Trinket](http://jumpto.cc/python-new)
+* [線上空白的Python 檔案](resources/new-new.py)
+
+## 教師資源
+
+* [包含所有專案資源的.zip文件](resources/secret-messages-volunteer-resources.zip)
+* [線上完整的Trinket專案](https://trinket.io/python/402256078c)
 * [secret-messages-finished/messages.py](resources/secret-messages-finished-messages.py)
-* [線上已完成“友情計算器”挑戰](https://trinket.io/python/2e852cd687)
-* [離線完成“友情計算器”挑戰](resources/friendship-calculator-finished-friends.py)
+* [Online completed 'Friendship calculator' challenge](https://trinket.io/python/2e852cd687)
+* [offline complete 'Friendship calculator' challenge](resources/friendship-calculator-finished-friends.py)
 
---- /collapse ---
+\--- /collapse \---

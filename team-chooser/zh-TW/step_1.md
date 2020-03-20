@@ -8,18 +8,15 @@
   <img src="images/team-finished.png">
 </div>
 
-### 俱樂部導師的附加資訊
-
-如果您需要列印此專案，請使用[適合列印版本](https://projects.raspberrypi.org/zh-CN/projects/team-chooser/print) 。
 
 --- collapse ---
----
-title: 俱樂部導師說明
----
+
+title: 給教師的話
+
 
 ## 介紹：
 
-在這個專案中，孩子們將學習如何製作一個程式，將一組隊員隨機分成2個團隊。 這個專案教授列表和使用檔案。
+在這個專案中，孩子們將學習如何製作一個程式，將一組隊員隨機分成2個團隊。 這個專案教授使用列表和存取檔案。
 
 ## 線上資源
 
@@ -29,7 +26,7 @@ title: 俱樂部導師說明
 
 還有一個包括已完成專案的Trinket：
 
-* [完成的”組隊器“ -- trinket.io/python/a699c44ce6](https://trinket.io/python/ca3af66f8d)
+* [完成的”組隊神器“ -- trinket.io/python/a699c44ce6](https://trinket.io/python/ca3af66f8d)
 
 ## 離線資源
 
@@ -73,10 +70,10 @@ title: 專案資源
 * [線上空白Python Trinket專案](http://jumpto.cc/python-new)
 * [離線空白Python檔案](resources/new-new.py)
 
-## 俱樂部導師資源
+## 教師資源
 
 * [包含所有完成專案資源的.zip檔案](resources/team-chooser-volunteer-resources.zip)
-* [線上已完成的Trinket專案](https://trinket.io/python/ca3af66f8d)
+* [線上已完成的Trinket專案](https://trinket.io/python/aeef2586a3)
 * [team-chooser-finished/team-chooser.py](resources/team-chooser-finished-team-chooser.py)
 
 --- /collapse ---
