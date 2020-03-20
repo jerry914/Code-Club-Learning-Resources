@@ -1,0 +1,22 @@
+hero_image: images/banner.png
+theme: turquoise
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 機器人王牌
+description: 建立一個機器人資料庫並與朋友玩機器人王牌！
+original_url: https://codeclubprojects.org/en-GB/python/robo-trumps
+interests: ''
+technologies: python
+site_areas: codeclub, python
+steps:
+- title: 介紹
+- title: 從檔案讀取機器人資料
+- title: 顯示資料
+- title: '挑戰：新增更多機器人'
+- title: '挑戰：向機器人新增更多統計資料'
+- title: 隨機顯示機器人
+- title: '挑戰：與朋友玩機器人王牌'
+

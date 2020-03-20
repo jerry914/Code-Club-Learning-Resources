@@ -1,0 +1,21 @@
+hero_image: images/popular-pets.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 熱門寵物
+description: 利用你收集的資料建立餅圖和條形圖。
+original_url: https://codeclubprojects.org/en-GB/python/popular-pets
+interests: ''
+technologies: python
+site_areas: codeclub, python
+steps:
+- title: 介紹
+- title: 建立一個餅圖
+- title: '挑戰：建立你自己的條形圖'
+- title: 從檔案讀取資料
+- title: '挑戰：從檔案中建立新圖表'
+- title: '挑戰：更多圖表和圖形！'
+

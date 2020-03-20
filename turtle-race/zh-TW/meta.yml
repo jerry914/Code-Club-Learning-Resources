@@ -1,0 +1,27 @@
+---
+hero_image: images/turtle-race.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 烏龜賽跑！
+description: 讓烏龜比賽跑步！
+original_url: https://codeclubprojects.org/en-GB/python/turtle-race
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017年1月1日
+steps:
+  - title: 介紹
+  - title: 你需要什麼
+  - title: 賽道
+  - title: '挑戰：更多線條'
+  - title: 賽跑的烏龜
+  - title: '挑戰：比賽時間！'
+  - title: '挑戰: 做一個旋轉'
+  - title: '挑戰：虛線'

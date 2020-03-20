@@ -1,0 +1,21 @@
+hero_image: images/where-is-the-space-station.png
+theme: blue
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: 國際空間站在哪裡？
+description: 繪製 ISS 的準確位置。
+original_url: https://codeclubprojects.org/en-GB/python/iss
+interests: space
+technologies: python
+site_areas: codeclub, python
+steps:
+- title: 介紹
+- title: 誰在太空裡？
+- title: '挑戰：顯示飛行器'
+- title: ​ISS 在哪裡？
+- title: ISS 何時會到達上空？
+- title: '挑戰：尋找更多經過時間'
+

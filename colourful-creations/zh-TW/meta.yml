@@ -1,0 +1,29 @@
+---
+hero_image: images/colourful-creations.png
+theme: yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: 色彩繽紛的作品
+description: 創造出你專屬的顏色，並利用它們做出色彩繽紛的海報。
+original_url: https://codeclubprojects.org/en-GB/python/colourful-creations
+interests: art
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 使用十六進位顏色代码
+  - 
+    title: 顏色字典
+  - 
+    title: '挑戰：更多顏色！'
+  - 
+    title: '挑戰：製作一張海報'
