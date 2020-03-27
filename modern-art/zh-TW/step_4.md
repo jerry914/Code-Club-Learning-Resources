@@ -2,7 +2,7 @@
 
 ## 挑戰：海龜藝術
 
-你可以定義一個`randomheading()`函式，使海龜朝向一個隨機方向，並讓以下程式碼也工作嗎？
+你可以定義一個`randomheading()`函式，使海龜朝向一個隨機方向，並也使用以下程式碼嗎？
 
 ![截圖](images/modern-turtle-art.png)
 

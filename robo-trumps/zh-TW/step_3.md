@@ -28,13 +28,13 @@
   
  輸入字典中不存在的機器人名稱來測試你的程式碼。
 
-+ 現在你要使用 Python 海龜來顯示機器人資料。 
++ 現在你要使用 Python turtle來顯示機器人資料。 
 
-  在你的指令碼頂部匯入海龜庫，並設定畫面和海龜：
+  在你的指令碼頂部匯入海龜庫，並設定畫面和 turtle：
 
   ![screenshot](images/robotrumps-turtle.png)
 
-+ 現在新增程式碼來使海龜列印出機器人的名稱：
++ 現在新增程式碼來使 turtle 列印出機器人的名稱：
 
   ![screenshot](images/robotrumps-name.png)
   
@@ -61,7 +61,7 @@
   ![screenshot](images/robotrumps-stats-2.png)
    
   
-+ 噢天哪！統計資料全都堆在了一起。你將需要新增程式碼來移動海龜：
++ 噢天哪！統計資料全都堆在了一起。你將需要新增程式碼來移動 turtle ：
 
    ![screenshot](images/robotrumps-stats-3.png)
 
