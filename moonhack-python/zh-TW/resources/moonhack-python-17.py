@@ -1,23 +1,23 @@
  #!/bin/python3
 
 items = [
-"A: 3 litres of water",
-"B: Shampoo",
-"C: An extra Spacesuit",
-"D: A shovel",
-"E: A 10 day oxygen supply",
-"F: Solar panels",
-"G: The seeds for your mission",
-"H: The soil for your mission",
-"I: A 3 day food supply"
+"A: 3公升的水",
+"B: 洗髮精",
+"C: 備用的太空服",
+"D: 一把鏟子",
+"E: 10天的氧氣供應",
+"F:太陽能電池板",
+"G: 執行任務的種子",
+"H: 執行任務的土壤",
+"I: 三天的食物"
 ]
 
-print("It is the year 2049. You are on a solo mission to restock the base on the moon with soil and seeds to grow more plants.")
-print("You have just landed but you are in trouble. You have landed 300 kilometers from the moon base!")
-print("You can get to the base in 3 days on your lunar rover")
-print("The lunar rover can only fit you in your spacesuit and 4 other items")
-print("Out of the items below, which do you bring? \n")
+print("現在是2049年。您要單獨執行一個任務，要在月球的基地上放滿土壤和種子，以種植更多的植物。")
+print("您剛剛降落，但是遇到了麻煩。您已經離月球基地有300公里遠！")
+print("您可以用3天的時間搭乘月球車到達基地")
+print("月球車只能容納您的太空服和其他4個物品")
+print("下面的物品中，您要帶哪些？ \n")
 
 
 
-print("Type the letter of the 4 items you would like to bring seperated by commas. Do not add spaces \n Ex: A,B,C,D")
+print("輸入使用逗號分隔的4個項目的代表字母。不要添加空格 \n Ex: A,B,C,D")

@@ -1,5 +1,5 @@
-Red Admiral: 6
-Gatekeeper: 4
-Small White: 3
-Holly Blue: 3
-Meadow Brown: 5
+寬尾鳳蝶: 6
+珠光鳳蝶: 4
+大紫蛺蝶: 3
+曙鳳蝶: 3
+黃裳鳳蝶: 5
