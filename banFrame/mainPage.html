@@ -2,21 +2,27 @@
 <html lang="en" >
     <head>
         <meta charset="UTF-8">
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-        <script src="mainImage.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="content">
-            <div class="jumper"></div>
+        <div class="content" id="bg">
+            <img src="../about-me/banner.png" alt="" id="myImg">
+            <canvas id="myCanvas"></canvas>
             <!-- <h1 class="challange">挑戰 !</h1> -->
         </div>
     </body>
 </html>
 
 <script>
-    // console.log(screen.height);
-
+    var canvas = document.getElementById("myCanvas");
+    var bg = document.getElementById("bg");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("myImg");
+    ctx.drawImage(img,30,0);
+    var imgData = ctx.getImageData(30, 0,10,10);
+    var i;
+    bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
+    
 </script>
 <style>
     html{
@@ -26,13 +32,9 @@
         margin: 0;
         padding: 0;
     }
-    .jumper{
-        width: 400px;
-        height: 200px;
-        position: absolute;
-        left: 30px;
-        background-image: url("../about-me/banner.png");
-        background-size: cover;
+    img{
+        width: 0px;
+        height: 0px;
     }
     .content{
         width: 100vw;

@@ -7,7 +7,8 @@ function preload() {
 }
 function setup() { 
     bg = selectAll('.content');
-    
+    // img = selectAll('img');
+    console.log(img);
     // for(var i=0;i<img.width;i++){
     //     for(var j=0;j<img.height;i++){
     //         console.log("d");
@@ -17,7 +18,7 @@ function setup() {
 } 
 
 function draw() { 
-    bg.style('background-color', img.get(10,10));
+    bg[0].style('background-color', img[0].img.get(10,10));
 }
 
 function getValue(){
