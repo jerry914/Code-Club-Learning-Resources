@@ -3,6 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content" id="bg">
+            <img src="../about-me/banner.png" alt="" id="myImg">
+            <canvas id="myCanvas"></canvas>
+            <div class="title"></div>
+        </div>
         <script>
             var url =  decodeURIComponent(window.location.href);
             var querys = url.split("?");
@@ -28,17 +35,10 @@
             var img = document.getElementById("myImg");
             ctx.drawImage(img,30,0);
             var imgData = ctx.getImageData(30, 0,10,10);
+            ctx.putImageData(imgData, 300, 70);
             var i;
             bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
         </script>
-    </head>
-    <body>
-        <div class="content" id="bg">
-            <img src="../about-me/banner.png" alt="" id="myImg">
-            <canvas id="myCanvas"></canvas>
-            <div class="title"></div>
-        </div>
-        
     </body>
 </html>
 
