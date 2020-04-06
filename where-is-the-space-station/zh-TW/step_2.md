@@ -107,12 +107,12 @@ band = {
 ---
 這是將名稱:值添加到字典的方法：
 ---
-# Add a key:value pair
+## Add a key:value pair
 band['yoko'] = 'vocals'
 ---
 以下是從字典中刪除名稱:值的方法：
 ---
-# Remove a key:value pair
+## Remove a key:value pair
 del band['paul']
 ---
 --- /callapse ---

@@ -12,7 +12,7 @@
 
 --- collapse ---
 ---
-title: 給老師的話
+## title: 給老師的話
 ---
 
 
@@ -87,7 +87,7 @@ __本專案使用 Python 3。__我們推薦使用 [trinket]（https://trinket.io
 
 --- collapse ---
 ---
-title: 專案材料
+## title: 專案材料
 ---
 ## 專案資源
 * [包含所有“程式碼世界”專案資源的線上 Trinket](http://jumpto.cc/codecraft-go)
