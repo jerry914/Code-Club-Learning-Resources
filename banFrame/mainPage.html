@@ -33,12 +33,12 @@
             var bg = document.getElementById("bg");
             var ctx = canvas.getContext("2d");
 
-            
-            var img = document.getElementById("myImg");
-            ctx.drawImage(img,30,0);
-            var imgData = ctx.getImageData(30, 0,10,10);
-            console.log(imgData);
-            canvas.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
+            ctx.drawImage(img,0,0);
+            var imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
+            console.log(imgData)
+            // var imgData = ctx.getImageData(30, 0,10,10);
+            // var i;
+            bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
         </script>
     </body>
 </html>
@@ -78,9 +78,5 @@
         color: whitesmoke;
         text-shadow: 0 0 3px whitesmoke,0 0 60px whitesmoke,0 0 80px whitesmoke;
     }
-    #myCanvas{
-        width: 100vw;
-        height: 240px;
-        border-radius: 15px 15px 0 0;
-    }
+    
 </style>
