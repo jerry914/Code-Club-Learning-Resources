@@ -47,7 +47,6 @@
             <div class="title"></div>
         </div>
 <script>
-    window.onload = function() {
 
     var url =  decodeURIComponent(window.location.href);
     var querys = url.split("?");
@@ -66,7 +65,7 @@
     }
     document.getElementById("bg").innerHTML = '<img src="'+imgSrc+'" alt="" id="myImg"><canvas id="myCanvas"></canvas><div class="title">'+title+'</div>'
         
-            
+    window.onload = function() {            
     var canvas = document.getElementById("myCanvas");
     var bg = document.getElementById("bg");
     var ctx = canvas.getContext("2d");
