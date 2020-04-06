@@ -3,17 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="content" id="bg">
-            <img src="../about-me/banner.png" alt="" id="myImg">
-            <canvas id="myCanvas"></canvas>
-            <div class="title"></div>
-        </div>
-    </body>
-</html>
-
-<script>
+        <script>
     var url =  decodeURIComponent(window.location.href);
     var querys = url.split("?");
     var qparts = querys[1].split("&");
@@ -42,7 +32,7 @@
     bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
     
 </script>
-<style>
+        <style>
     html{
         font-family: 'Microsoft JhengHei', Helvetica, Arial, sans-serif;
     }
@@ -77,3 +67,14 @@
         text-shadow: 0 0 3px whitesmoke,0 0 60px whitesmoke,0 0 80px whitesmoke;
     }
 </style>
+    </head>
+    <body>
+        <div class="content" id="bg">
+            <img src="../about-me/banner.png" alt="" id="myImg">
+            <canvas id="myCanvas"></canvas>
+            <div class="title"></div>
+        </div>
+    </body>
+</html>
+
+
