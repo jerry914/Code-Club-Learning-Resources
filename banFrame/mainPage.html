@@ -8,12 +8,30 @@
         <div class="content" id="bg">
             <img src="../about-me/banner.png" alt="" id="myImg">
             <canvas id="myCanvas"></canvas>
-            <!-- <h1 class="challange">挑戰 !</h1> -->
+            <div class="title"></div>
         </div>
     </body>
 </html>
 
 <script>
+    var url =  decodeURIComponent(window.location.href);
+    var querys = url.split("?");
+    var qparts = querys[1].split("&");
+    var imgSrc;
+    var title;
+    console.log(qparts)
+    for(var i=0;i<qparts.length;i++){
+        if(qparts[i].indexOf("src")>=0){
+            var que = qparts[i];
+            imgSrc = que.split("=")[1];
+        }
+        else if(qparts[i].indexOf("title")>=0){
+            var que = qparts[i];
+            title = que.split("=")[1];
+        }
+    }
+    document.getElementById("bg").innerHTML = '<img src="'+imgSrc+'" alt="" id="myImg"><canvas id="myCanvas"></canvas><div class="title">'+title+'</div>'
+
     var canvas = document.getElementById("myCanvas");
     var bg = document.getElementById("bg");
     var ctx = canvas.getContext("2d");
@@ -33,16 +51,29 @@
         padding: 0;
     }
     img{
-        width: 0px;
-        height: 0px;
+        width: 450px;
+        height: 240px;
+        position: absolute;
+        top: 0px;
+        left: 30px;
     }
     .content{
         width: 100vw;
-        height: 200px;
+        height: 240px;
         background-color: #e58c8a;
         border-radius: 15px 15px 0 0;
         position: fixed;
         left: 0px;
         top: 0px;
+    }
+    .title{
+        position: absolute;
+        left: 500px;
+        top: 0px;
+        line-height: 240px;
+        font-size: 40px;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 0 0 3px whitesmoke,0 0 60px whitesmoke,0 0 80px whitesmoke;
     }
 </style>
