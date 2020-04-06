@@ -2,7 +2,7 @@ var bg;
 var img;
 var bgcolor = [];
 function preload() {
-    img = loadImage(getValue());
+    img = loadImage('../about-me/banner.png');
 
 }
 function setup() { 
@@ -13,10 +13,11 @@ function setup() {
     //         console.log("d");
     //     }
     // }
-    bg.style('background-color', img.get(10,10));
+    
 } 
 
 function draw() { 
+    bg.style('background-color', img.get(10,10));
 }
 
 function getValue(){
