@@ -28,16 +28,17 @@
                 }
             }
             document.getElementById("bg").innerHTML = '<img src="'+imgSrc+'" alt="" id="myImg"><canvas id="myCanvas"></canvas><div class="title">'+title+'</div>'
-        
-            var canvas = document.getElementById("myCanvas");
-            var bg = document.getElementById("bg");
-            var ctx = canvas.getContext("2d");
-            var img = document.getElementById("myImg");
-            ctx.drawImage(img,30,0);
-            var imgData = ctx.getImageData(30, 0,10,10);
-            ctx.putImageData(imgData, 300, 70);
-            var i;
-            bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
+            window.addEventListener("load", function(event) {
+                var canvas = document.getElementById("myCanvas");
+                var bg = document.getElementById("bg");
+                var ctx = canvas.getContext("2d");
+                var img = document.getElementById("myImg");
+                ctx.drawImage(img,30,0);
+                var imgData = ctx.getImageData(30, 0,10,10);
+                var i;
+                bg.style.backgroundColor = "rgb("+imgData.data[16]+","+imgData.data[17]+","+imgData.data[18]+")";
+            });
+            
         </script>
     </body>
 </html>
