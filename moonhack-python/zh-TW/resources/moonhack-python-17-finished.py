@@ -1,47 +1,47 @@
  #!/bin/python3
 
 items = [
-"A: 3公升的水",
-"B: 洗髮精",
-"C: 備用的太空服",
-"D: 一把鏟子",
-"E: 10天的氧氣供應",
-"F:太陽能電池板",
-"G: 執行任務的種子",
-"H: 執行任務的土壤",
-"I: 三天的食物"
+"A: 3 litres of water",
+"B: Shampoo",
+"C: An extra Spacesuit",
+"D: A shovel",
+"E: A 10 day oxygen supply",
+"F: Solar panels",
+"G: The seeds for your mission",
+"H: The soil for your mission",
+"I: A 3 day food supply"
 ]
 
-print("現在是2049年。您要單獨執行一個任務，要在月球的基地上放滿土壤和種子，以種植更多的植物。")
-print("您剛剛降落，但是遇到了麻煩。您已經離月球基地有300公里遠！")
-print("您可以用3天的時間搭乘月球車到達基地")
-print("月球車只能容納您的太空服和其他4個物品")
-print("下面的物品中，您要帶哪些？ \n")
+print("It is the year 2049. You are on a solo mission to restock the base on the moon with soil and seeds to grow more plants.")
+print("You have just landed but you are in trouble. You have landed 300 kilometers from the moon base!")
+print("You can get to the base in 3 days on your lunar rover")
+print("The lunar rover can only fit you in your spacesuit and 4 other items")
+print("Out of the items below, which do you bring? \n")
 
 for objects in items:
     print(objects)
 
-print("輸入使用逗號分隔的4個項目的代表字母。不要添加空格 \n Ex: A,B,C,D")
+print("Type the letter of the 4 items you would like to bring seperated by commas. Do not add spaces \n Ex: A,B,C,D")
 user_choice = input(">>> ")
 
 user_list =  list(user_choice.split(','))
 #print(user_list)
 
-#如果用戶輸入錯誤，請告訴他們選擇中所缺少的項目
+#If user is wrong, tells them which item was missing from their selection
 if "A" not in user_list:
-  print("每天沒有喝一升水，您會脫水")
+  print("Without a liter of water a day you will dehydrate")
 
 if "E" not in user_list:
-  print("沒有氧氣，您將沒有空氣可以呼吸！")
+  print("Without oxygen you will not have any air to breathe!")
 
 if "F" not in user_list:
-  print("沒有太陽能板，您的月球漫遊車將沒有足夠的動力抵達基地")
+  print("Without solar panels your lunar rover will not have enough power to make it to the base")
 
 if "I" not in user_list:
-  print("儘管沒有食物您可能可以生存三天，但您將需要精力來駕駛月球車。沒有食物您將無法生存。")
+  print("Although you might be able to survive without food for 3 days you will need your energy to drive the rover. You will not make it without food.")
 
-#告訴用戶是否可以安全抵達
+#Tells user whether or not they will make it safely
 if "A" in user_list and "E" in user_list and "F" in user_list and "I" in user_list:
-  print("萬歲！您選擇了正確的4個項目。您將安全地抵達月球基地")
+  print("Hooray! You picked the correct 4 items. You will make it to the moonbase safely")
 else:
-  print("您沒有選擇正確的4件物品來生存。您不會安全地抵達月球基地。")
+  print("You did not pick the correct 4 items for survival. You will not make it safely to the moon base.")

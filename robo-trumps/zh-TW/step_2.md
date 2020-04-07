@@ -59,7 +59,7 @@
 
   名稱為鍵，值為該機器人的一系列資料。 
 
-  新增以下圈選的程式碼：
+  新增以下高亮程式碼：
  
   ![screenshot](images/robotrumps-data.png)
   

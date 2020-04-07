@@ -45,7 +45,7 @@
 
     ![screenshot](images/iss-time.png)
 
-+ `time.ctime()` 函式將該時間轉化為你能使用turtle寫出的可讀格式： 
++ `time.ctime()` 函式將該時間轉化為你能使用海龜寫出的可讀格式： 
 
     ![screenshot](images/iss-pass-write.png)
  

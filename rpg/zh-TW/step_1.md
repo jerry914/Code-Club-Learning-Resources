@@ -38,7 +38,7 @@ title: 你會需要什麼
 
 --- collapse ---
 
-title: 你會學到什麼
+## title: 你會學到什麼
 
 
  + 遊戲設計
@@ -56,7 +56,7 @@ title: 你會學到什麼
 
 --- collapse ---
 ---
-title: 給老師的更多資訊
+## title: 給老師的更多資訊
 ---
 
 你可以在這裡找到 [完成的專案](https://trinket.io/python/9d81fcd0e2){:target="_blank"}。

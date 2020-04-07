@@ -1,85 +1,86 @@
 #!/bin/python3
 
+# Replace RPG starter project with this code when new instructions are live
+
 def showInstructions():
-  #印出主選單和指令
+  #print a main menu and the commands
   print('''
-角色扮演遊戲
+RPG Game
 ========
-指令:
-  前進 [方向]
-  拾取 [物品]
+Commands:
+  go [direction]
+  get [item]
 ''')
 
 def showStatus():
-  #印出玩家的當前狀態
+  #print the player's current status
   print('---------------------------')
-  print('你正位於 ' + currentRoom)
-  #印出當前包中的物品
-  print('背包 : ' + str(inventory))
-  #如果發現有物品，把它印出來
+  print('You are in the ' + currentRoom)
+  #print the current inventory
+  print('Inventory : ' + str(inventory))
+  #print an item if there is one
   if "item" in rooms[currentRoom]:
-    print('你看到了 ' + rooms[currentRoom]['item'])
+    print('You see a ' + rooms[currentRoom]['item'])
   print("---------------------------")
 
-#一個庫存清單,一開始設定是空的
-#
+#an inventory, which is initially empty
 inventory = []
 
-#一個房間連接關係的字典
+#a dictionary linking a room to other rooms
 rooms = {
 
-            '大廳' : { 
-                  '南' : '廚房'
+            'Hall' : { 
+                  'south' : 'Kitchen'
                 },
 
-            '廚房' : {
-                  '北' : '大廳'
+            'Kitchen' : {
+                  'north' : 'Hall'
                 }
 
-        }
+         }
 
-#一開始將玩家放置在大廳的位置上
-currentRoom = '大廳'
+#start the player in the Hall
+currentRoom = 'Hall'
 
 showInstructions()
 
-#重複執行到永遠
+#loop forever
 while True:
 
   showStatus()
 
-  #取得玩家的下一個動作
-  #.split() 將字串分離成一個陣列
-  #範例: 輸入 '前往 東' 會得到這個陣列:
-  #['前往','東']
+  #get the player's next 'move'
+  #.split() breaks it up into an list array
+  #eg typing 'go east' would give the list:
+  #['go','east']
   move = ''
   while move == '':  
     move = input('>')
     
   move = move.lower().split()
 
-  #如果他們先輸入 '前往'
-  if move[0] == '前往':
-    #檢查他們要前進的方向能不能走
+  #if they type 'go' first
+  if move[0] == 'go':
+    #check that they are allowed wherever they want to go
     if move[1] in rooms[currentRoom]:
-      #將目前鎖在房間設定成新的房間
+      #set the current room to the new room
       currentRoom = rooms[currentRoom][move[1]]
-    #如果那裏沒有路(房間)可以前往
+    #there is no door (link) to the new room
     else:
-        print('你不能往這個方向走!')
+        print('You can\'t go that way!')
 
-  #如果他們先輸入 '拾取' 
-  if move[0] == '拾取' :
-    #如果這間房間有東西，而且這個物品是玩家想要達到的
+  #if they type 'get' first
+  if move[0] == 'get' :
+    #if the room contains an item, and the item is the one they want to get
     if "item" in rooms[currentRoom] and move[1] in rooms[currentRoom]['item']:
-      #把物品放進背包裡面
+      #add the item to their inventory
       inventory += [move[1]]
-      #顯示成功獲取的訊息
+      #display a helpful message
       print(move[1] + ' got!')
-      #將物品從房間中刪除
+      #delete the item from the room
       del rooms[currentRoom]['item']
-    #如果這間房間沒有玩家能撿的物品，則
+    #otherwise, if the item isn't there to get
     else:
-      #告訴他們 你不能拿到這個物品!
-      print('拿不到' + move[1] + '!')
+      #tell them they can't get it
+      print('Can\'t get ' + move[1] + '!')
 

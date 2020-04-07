@@ -31,39 +31,7 @@
     }
     ```
 
-    這些資料是即時的，因此你會看到不同的結果。這種格式被稱作 JSON（念作 Jason）。
-
---- collapse ---
-## title: JSON 是什麼？
-
-JSON是用於儲存和分享數據的格式。JSON代表JavaScript物件表示法，但它不僅在JavaScript中使用。
-
-JSON是一種文本格式，可以在程式碼中使用，並且人們很容易閱讀。
----
-{
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0
-}
----
-一個 JSON 物件是包含 名稱-值 的列表，放在大括號`{}` 內。
-
-值也可以是方括號`[]`內的陣列：
-
----
-{
-  "name": "Ogre",
-  "size": 90,
-  "power": 86,
-  "intelligence": 12,
-  "magic": 0,
-  "weapons" : ["club", "rock", "bone"]
-}
----
-
---- /collape ---
+    這些資料是實時的，因此你會看到不同的結果。這種格式被稱作 JSON（念 Jason）。 
 
 + 讓我們從 Python 呼叫該 web 服務，這樣我們便可以使用該結果。
 
@@ -93,6 +61,7 @@ JSON是一種文本格式，可以在程式碼中使用，並且人們很容易�
 
     這是一個有 3 個鍵的 Python 字典：message（資訊）、number（數量）和 people（人物）。 
 
+
 --- callapse ---
 ## 在 Pyhton 中使用 名稱:值
 
@@ -107,15 +76,16 @@ band = {
 ---
 這是將名稱:值添加到字典的方法：
 ---
-# Add a key:value pair
+## Add a key:value pair
 band['yoko'] = 'vocals'
 ---
 以下是從字典中刪除名稱:值的方法：
 ---
-# Remove a key:value pair
+## Remove a key:value pair
 del band['paul']
 ---
 --- /callapse ---
+
 
     資訊的“success”（成功）值告訴你請求成功。很好。 
 
@@ -140,13 +110,13 @@ del band['paul']
     [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]
     ```
 
-+ 現在你需要針對每個太空人列印出一行。
++ 現在你需要針對每個宇航員列印出一行。
 
-    你可以在 Python 中使用一個 for 迴圈來進行操作。每執行一次迴圈，都將為一名不同的太空人將 `p` 設定到一個字典。
+    你可以在 Python 中使用一個 for 迴圈來進行操作。每執行一次迴圈，都將為一名不同的宇航員將 `p` 設定到一個字典。
 
     ![screenshot](images/iss-people-1a.png)
 
-+ 隨後你可以查詢“name”（名稱）和“craft”（太空站）的值
++ 隨後你可以查詢“name”（名稱）和“craft”（飛行器）的值
 
     ![screenshot](images/iss-people-2.png)
   
@@ -159,7 +129,7 @@ del band['paul']
     Timothy Peake
     ```
 
-    你正使用即時資料，因此你的結果將取決於目前在太空中的人數。 
+    你正使用實時資料，因此你的結果將取決於目前在太空中的人數。 
 
 
 
