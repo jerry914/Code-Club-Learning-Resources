@@ -1,0 +1,27 @@
+---
+title: 畫圖工具盒
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: 做個你自己的繪圖工具程式
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 做個鉛筆
+  - 
+    title: 不同顏色的鉛筆
+  - 
+    title: '挑戰：更多色鉛筆'
+    challenge: true
+  - 
+    title: 清空與擦除
+  - 
+    title: 改變鉛筆的寬度
+  - 
+    title: '挑戰：鍵盤快捷鍵'
+    challenge: true
+  - 
+    title: '然後呢？'

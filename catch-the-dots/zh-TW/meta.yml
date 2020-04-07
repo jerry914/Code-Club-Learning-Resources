@@ -1,0 +1,27 @@
+---
+hero_image: images/banner.png
+listed: true
+copyedit: false
+title: 抓住點點
+description: 做個將不同顏色的點點與控制輪的顏色進行匹配的遊戲。
+version: 4.0.0
+last_tested: 2018-10-16
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 做個控制器
+  - 
+    title: 得分或失血
+  - 
+    title: 更多點點
+  - 
+    title: 增加難度
+  - 
+    title: '挑戰：點點衝啊'
+  - 
+    title: 最高分紀錄
+  - 
+    title: '挑戰：遊戲改良！'
+  - 
+    title: 然後呢？

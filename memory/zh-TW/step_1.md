@@ -1,25 +1,65 @@
+\--- no-print \---
+
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/memory-scratch2) 版本。
+
+\--- /no-print \---
+
 ## 介紹
 
-你將在本專案中建立一個記憶遊戲，在遊戲中，你必須記住並重復隨機的顏色序列！
+在這個專案中，你將創建一個記憶遊戲，玩家必須記住隨機出現的顏色序列！
 
-### 你將做出什麼
+### 你會做出的玩意兒
 
-點選綠色旗幟以開始。觀察舞者裙子顯示的顏色順序並傾聽伴隨的鼓聲，然後向她重複這些顏色。如果你把順序弄錯，遊戲就會結束！
+\--- no-print \---
+
+點擊綠旗開始， 舞者在舞台上會更換不同的服裝，請在觀看後依序點擊顏色。 如果你搞錯顏色順序，就代表你的記憶力…不太行！
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34874510/?autostart=false" frameborder="0"></iframe>
-  <img src="images/colour-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/284452634/?autostart=false" frameborder="0" allowfullscreen scrolling="no" mark="crwd-mark"></iframe> <img src="images/screenshot.png" />
 </div>
 
-### 你將學習什麼
+\--- /no-print \---
 
-本專案包括[Raspberry Pi 數字製作課程](http://rpf.io/curriculum){:target="_blank"}以下幾個部分的元素：
+\--- print-only \---
 
-+ [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+![已完成遊戲的截圖](images/screenshot.png)
 
+\--- /print-only \---
 
-### 更多教師參考資訊
+## \--- collapse \---
 
-如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/memory/print){:target="_blank"}。
+## title: 你會學到
 
-使用頁尾中的連結訪問本專案的 GitHub 資源庫，其中包含“en/resources”資料夾中的所有資源（包括已完成專案示例）。
++ 在 Scratch 專案添加音效
++ 用 Scratch 程式創建和使用清單存取數據
++ 用 Scratch 程式創建和使用函式積木取代重複的程式片段
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 你會用到
+
+### 硬體
+
++ 可運行 Scratch 3 的電腦
+
+### 軟體
+
+Scratch 3（[線上版](https://rpf.io/scratchon){:target="_blank"} 或 [離線版](https://rpf.io/scratchoff){:target="_blank"}）
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 給教師的其它資訊
+
+\--- no-print \---
+
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/memory/print){:target="_blank"}。
+
+\--- /no-print \---
+
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/memory-get)。
+
+\--- /collapse \---

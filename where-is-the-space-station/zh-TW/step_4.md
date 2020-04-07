@@ -1,8 +1,9 @@
 ​## ISS 在哪裡？
 
-國際太空站處於環繞地球的軌道內。它大約每隔一個半小時繞地球一週。ISS 以平均每秒 7.66 km 的速度前進。速度飛快！ 
+國際空間站處於環繞地球的軌道內。它每隔大約一個半小時繞地球執行一週。ISS 以平均每秒 7.66 km 的速度執行。速度很快！ 
 
-讓我們使用另一個 web 服務來查詢國際太空站的位置。 
+讓我們使用另一個 web 服務來查詢國際空間站的位置。 
+
 
 
 + 首先在 web 瀏覽器的新選項卡中開啟該 web 服務的 url：<a href="http://api.open-notify.org/iss-now.json" target="_blank">http://api.open-notify.org/iss-now.json</a>
@@ -37,7 +38,7 @@
 
 + 將位置顯示在地圖上會更加有用。
 
-    首先我們需要匯入turtle 模組。 
+    首先我們需要匯入海龜繪相簿。 
   
     ![screenshot](images/iss-turtle.png)
   
@@ -45,7 +46,7 @@
 
     ![screenshot](images/iss-map.png)
   
-    NASA 提供了這張漂亮的地圖並允許使用。 
+    NASA 提供了這張漂亮的地圖並允許重複使用。 
   
     地圖居中於 0, 0，這正是你所需要的。 
 
@@ -55,13 +56,13 @@
 
     ![screenshot](images/iss-setup.png)
   
-+ 你想要將turtle送到一個特定的緯度和經度。為了簡單起見，我們可以設定畫面來匹配我們使用的座標：
++ 你想要將海龜送到一個特定的緯度和經度。為了簡單起見，我們可以設定畫面來匹配我們使用的座標：
 
     ![screenshot](images/iss-world.png) 
   
     現在座標將與我們從 web 服務獲得的經緯度座標相匹配。 
 
-+ 讓我們為 ISS 建立一個turtle。 
++ 讓我們為 ISS 建立一個海龜。 
 
     ![screenshot](images/iss-image.png)
 
