@@ -1,48 +1,124 @@
-## 建立問題
+## 建立隨機問題
 
-讓我們從建立隨機問題供玩家回答開始。
+首先，你需要建立隨機問題，讓玩家回答。
 
+\--- task \---
 
+建立一個新的 Scratch 專案。
 
-+ 啟動一個新的 Scratch 專案，刪除貓子圖，使專案清空。你可以在 <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a> 找到線上 Scratch 編輯器。
+**線上版：**你可以連結 [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"} 以新建專案。
 
-+ 為你的遊戲選擇一個角色和背景。你可以選擇任何你喜歡的！示例：
+**離線版：**在離線編輯器的工作列中開啟選單並點擊新建專案。
 
-	![screenshot](images/brain-setting.png)
+如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
-+ 建立 2 個被稱作 `數字 1`{:class="blockdata"} 和 `數字 2`{:class="blockdata"} 的新變數。這些變數將儲存要進行相乘的 2 個數字。
+\--- /task \---
 
-	![screenshot](images/brain-variables.png)
+\--- task \---
 
-+ 向你的角色新增程式碼，將這些變數均設定為 2 和 12 之間的 `隨機`{:class="blockoperators"} 數字。
+為遊戲添加角色和背景，你可以選擇你喜歡的，這裡我要用 Giga 當角色：
 
-	```blocks
-		點選綠旗時
-		變數 [number 1 v] 設為 (隨機取數 (2) 到 (12))
-		變數 [number 2 v] 設為 (隨機取數 (2) 到 (12))
-	```
+![截圖](images/brain-setting.png)
 
-+ 隨後，你可以讓玩家給出答案，並告知其答案正確與否。
+\--- /task \---
 
-	```blocks
-		點選綠旗時
-		變數 [number 1 v] 設為 (隨機取數 (2) 到 (12))
-		變數 [number 2 v] 設為 (隨機取數 (2) 到 (12))
-		詢問 (字串組合 (number 1) 和 (字串組合 [ x ] 和 (number 2))) 並等待
-		如果 <(answer) = ((number 1) * (number 2))> 那麼 
-  			說出 [yes! :)] (2) 秒
+\--- task \---
 
-  			說出 [nope :(] (2) 秒
-		end
-	```
+確定選取了你的角色後， 創建兩個變數，第一個叫`被乘數`{:class="block3variables"}，第二個叫`乘數`{:class="block3variables"}，用來暫時儲存要測驗的題目。
 
-+ 通過正確回答一個問題和錯誤回答一個問題，對你的專案進行充分測試。
+![截圖](images/giga-sprite.png)
 
-+ 圍繞此程式碼新增一個 `永遠`{:class="blockcontrol"} 迴圈，以詢問玩家大量問題。
+![截圖](images/brain-variables.png)
 
-+ 使用被稱作 `時間`{:class="blockdata"} 的變數，在工作區上建立一個倒數計時器。如果你需要幫助，“魔鬼剋星”專案有製作計時器的說明（在第 5 步）！
+[[[generic-scratch3-add-variable]]]
 
-+ 再次測試你的專案 - 你應該能夠持續提出問題，直到時間結束。
+\--- /task \---
 
+\--- task \---
 
+在 Giga 角色上編程，把這兩個`變數`{:class="block3variables"}設為`隨機取數`{:class="block3operators"}，數字範圍介於 2 到 12 之間。
 
+![截圖](images/giga-sprite.png)
+
+```blocks3
+當 @greenflag 被點擊
+變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
+```
+
+\--- /task \---
+
+\--- task \---
+
+接著讓 Giga `詢問`{:class="block3sensing"}乘法問題，玩家在看到題目後輸入答案。等到回答後，Giga `說出 2 秒`{:class="block3looks"}，告訴玩家是答對還是答錯：
+
+![截圖](images/giga-sprite.png)
+
+```blocks3
+當 @greenflag 被點擊
+變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
+
++ 詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
++ 如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
++ 說出 (答對！ ) 持續 (2) 秒
++ 否則
++ 說出 (答錯！) 持續 (2) 秒
++ end
+```
+
+\--- /task \---
+
+\--- task \---
+
+測試你的專案兩次：一次答對，另一次故意答錯。
+
+\--- /task \---
+
+\--- task \---
+
+用`重複無限次`{:class="block3control"}迴圈，讓玩家就會永無寧日，一直被問乘法問題。
+
+\--- hints \---
+
+\--- hint \---
+
+你要用`重複無限次`{:class="block3control"}積木把整個程式包住（除了`點擊綠旗`{:class="block3control"} ）。
+
+\--- /hint \---
+
+\--- hint \---
+
+這裡是你需要的程式積木：
+
+```blocks3
+重複無限次
+end
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+你的程式看起來應該像這樣：
+
+```blocks3
+當 @greenflag 被點擊
+
++ 重複無限次
+    變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+    變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
+    詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
+    如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
+        說出 (答對！ ) 持續 (2) 秒
+    否則
+        說出 (答錯！) 持續 (2) 秒
+    end
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---

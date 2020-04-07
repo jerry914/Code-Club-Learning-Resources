@@ -1,6 +1,6 @@
 --- challenge ---
 ## 挑戰：建造你的世界
-你能否製作一個帶有花園和游泳池的房子？或者你還能建立什麼別的東西？
+你能否製作一個帶有花園和游泳池的房子？你還能建立別的什麼？
 
 ![screenshot](images/craft-build-example.png)
 

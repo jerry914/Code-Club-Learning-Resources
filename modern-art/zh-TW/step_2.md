@@ -1,6 +1,6 @@
 ## 隨機顏色
 
-+ 開啟此Trinket: [trinket.io/python/5c2f5a25cf](https://trinket.io/python/08aff680d1){:target="_blank"}。
++ 開啟此Trinket: <a href="https://trinket.io/python/5c2f5a25cf" target="_blank">trinket.io/python/5c2f5a25cf</a>。
 
 + 你可以通過表明你想要的紅色、綠色和藍色色值（在 0 到 255 之間選擇）來設定海龜的顏色。
     
@@ -12,7 +12,9 @@
 
 --- collapse ---
 
+
 ## title: "Error - bad color sequence: (150, 0, 150)"
+
 
 
 當你執行程式碼時是否遇到`bad color sequence: (150, 0, 150)`這個錯誤。

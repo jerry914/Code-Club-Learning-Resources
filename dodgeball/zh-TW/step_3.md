@@ -1,10 +1,5 @@
---- challenge ---
-## 挑戰：通關
-你能否向你的角色新增更多程式碼，這樣 `如果`{:class="blockcontrol"}他們到達綠門，他們便會說一些什麼？
+## 挑戰：讓角色過關
 
-![screenshot](images/dodge-win.png)
+添加一些程式，`如果`{:class="block3control"}角色抵達終點（舞台右上角的綠色方塊），就說些話，讓玩家知道過關了。你知道要怎麼做嗎？
 
-
-
-
---- /challenge ---
+![截圖](images/dodge-win.png)

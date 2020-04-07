@@ -1,62 +1,65 @@
+\--- no-print \---
+
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2) 版本。
+
+\--- /no-print \---
+
 ## 介紹
 
-你將在本專案中學習如何建立一個乘法表測驗，在測驗中，你必須在 30 秒內答出儘可能多的正確答案。
+這個專案中，你會創建一個數學測驗遊戲，看看在 30 秒內玩家可以答對幾題。
+
+### 你會做出的玩意兒
+
+\--- no-print \---
+
+點擊綠旗開始，畫面上會出現問題，輸入答案後按 <kbd>Enter</kbd> 鍵。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### 更多俱樂部領導資訊
+\--- /no-print \---
 
-如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。
+\--- print-only \---
 
+![腦力遊戲](images/brain-final.png)
 
---- collapse ---
----
-title: 俱樂部領導備註
----
+\--- /print-only \---
 
+## \--- collapse \---
 
-## 介紹：
-孩子們將在本專案中學習如何製作乘法表測驗遊戲，在遊戲中，玩家必須在 30 秒內正確回答儘可能多的問題。
+## title: 你會學到
 
-## 資源
-本專案應使用 Scratch 2。Scratch 2 可在 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) 上線上使用或從 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) 下載並離線使用。
++ 用 Scratch 程式廣播訊息
++ 用 Scratch 程式創建和使用函式積木
 
-你可<a href="http://scratch.mit.edu/projects/42225768/#editor">線上</a>找到本專案的完整版本，或通過點選本專案的“專案材料”連結下載該專案，其中包括：
+\--- /collapse \---
 
-+ BrainGame.sb2
+## \--- collapse \---
 
-## 學習目標
-+ 本專案鞏固了先前所學程式設計技術的知識，並展示瞭如何使用廣播建立一個簡單的遊戲選單系統。
+## title: 你會用到
 
-本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：
+### 硬體
 
-+ [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)
++ 可運行 Scratch 3 的電腦
 
-## 挑戰
-+ “更改裝扮” - 更改遊戲角色與正確答案和錯誤答案對應的外觀；
-+ “新增分數” - 為正確回答的每個問題新增一個分數；
-+ “開始畫面” - 作為對 `開始`{:class="blockevents"} 和 `結束`{:class="blockevents"} 廣播訊息的迴應更改工作區背景，建立 2 個遊戲“畫面”；
-+ “改進動畫” - 使用迴圈和效果改進正確／錯誤的圖形動畫；
-+ “聲音和音樂” - 鞏固對音樂迴圈和音效的學習；
-+ “爭得 10 分” - 更改遊戲邏輯以建立新的遊戲目標；
-+ “說明畫面” - 通過新增新的“說明”按鈕和畫面，鞏固廣播的使用以建立一個遊戲選單。
+### 軟體
 
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
+\--- /collapse \---
 
---- /collapse ---
+## \--- collapse \---
 
+## title: 給教師的其它資訊
 
---- collapse ---
----
-title: 專案材料
----
+\--- no-print \---
 
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/brain-game/print)。
 
-## 俱樂部領導資源
-* [可下載的完整 Scratch 2 專案](resources/BrainGame.sb2)
-* [線上的完整 Scratch 2 專案](http://scratch.mit.edu/projects/42225768/#editor)
+\--- /no-print \---
 
---- /collapse ---
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
+
+\--- /collapse \---
