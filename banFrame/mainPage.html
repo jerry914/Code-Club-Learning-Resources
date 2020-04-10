@@ -43,8 +43,15 @@
     var img = document.getElementById("myImg");
     ctx.drawImage(img,30,0);
     var imgData = ctx.getImageData(30, 0,10,10);
-    var i;
-    bg.style.backgroundColor = "rgb("+imgData.data[160]+","+imgData.data[161]+","+imgData.data[162]+")";
+    var i=0;
+    var pollData = 0;
+    while(i<imgData.data.length){
+        pollData=imgData.data[i];
+        if(pollData!=0)
+            break;
+        i+=4;
+    }
+    bg.style.backgroundColor = "rgb("+imgData.data[i]+","+imgData.data[i+1]+","+imgData.data[i+2]+")";
 
     }
 </script>
